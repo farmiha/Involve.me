@@ -1,1 +1,14 @@
+**The Core Financial Metrics: Define what profitability and financial health look like for your software venture (e.g., target gross margins, customer acquisition cost [CAC] vs. lifetime value [LTV] ratios). Explain how you will track your metrics to prove economic viability.**
+
+For our software venture, financial health and profitability will look like converting free users into paying users and them staying for a long enough time to make the act of acquiring them viable. We will track what share of free users upgrade, how many paying subscribers cancel each month, and which paid tier they cancel from. We will record subscription status in our PostgreSQL database through our billing providers and use an analytics service to measure these metrics. We will also calculate our gross margin and compare the lifetime value of a paying user to the cost of acquiring them (LTV to CAC)
+
+
+**The Operational Runway Engine: Map out your venture's short-term liquidity management plan. Detail how you will track your monthly burn rate and identify the specific infrastructure metrics your team will use to optimize asset efficiency (e.g., cloud hosting utilization, server overhead, or developer output efficiency).**
+
+Our venture’s short term liquidity management plan is that every month, we will total what we spent on managed backend services and tools to get our burn rate, then compare it to our cash on hand to see how long our money will last. Our managed backend will keep early infrastructure costs low, and automatically delete crew chats and location pins after a certain amount of time which keeps database overhead also low. To measure infrastructure efficiency, we will track the cost per active user of real-time messaging, geolocation searches, and notifications, along with how many users are on the app at the same time. If those costs are not helping the revenue, we would take those components and look for other ways to optimize assets.
+
+
+**The Working Capital Policy: Detail your operational policies regarding accounts receivable and accounts payable. Explain how your team intends to minimize the time lag between delivering access to your software platforms and collecting subscription payments from enterprise or individual clients.**
+
+We plan to bill individual subscriptions through the Apple App Store and Google Play, where users would pay when they subscribe though in-app purchases. The stores would pay us possibly weeks later, so we would need to plan our cash needs around those time frames. To shorten the lag between giving access and collecting subscription payments we would offer an annual plan for users and invoice event organizers before their promotion period begins. Affiliate or referral commissions would be tracked separately and could be slower depending on the contract. Our backend cost would grow with more usage, so it would need to be checked against revenue each month. 
 
